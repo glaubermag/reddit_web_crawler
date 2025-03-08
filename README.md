@@ -1,11 +1,32 @@
-# 📊 Reddit Data Scraper & Analyzer 
+# 📊 Reddit Data Scraper & Analyzer
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-brightgreen)](https://postgresql.org)
 [![License](https://img.shields.io/badge/License-MIT-red)](LICENSE)
 
-
 Este projeto permite a coleta e análise de posts e comentários do Reddit, armazenando os dados de maneira segura em um banco relacional PostgreSQL. Ele é ideal para pesquisadores, analistas de dados e desenvolvedores que desejam extrair informações valiosas de comunidades online. Com consultas pré-definidas, é possível obter insights rapidamente, facilitando a análise de tendências, identificação de padrões e integração com ferramentas de NLP para processamento avançado de linguagem natural.
+
+---
+
+## Índice
+
+- [📊 Reddit Data Scraper \& Analyzer](#-reddit-data-scraper--analyzer)
+  - [Índice](#índice)
+  - [📌 Visão Geral](#-visão-geral)
+  - [⚡ Quick Start](#-quick-start)
+    - [1️⃣ Clonar o repositório](#1️⃣-clonar-o-repositório)
+    - [2️⃣ Criar um ambiente virtual (opcional, mas recomendado)](#2️⃣-criar-um-ambiente-virtual-opcional-mas-recomendado)
+    - [3️⃣ Instalar as dependências](#3️⃣-instalar-as-dependências)
+    - [4️⃣ Configurar o arquivo `.env`](#4️⃣-configurar-o-arquivo-env)
+    - [5️⃣ Executar o script principal](#5️⃣-executar-o-script-principal)
+  - [🗄️ Modelagem do Banco de Dados](#️-modelagem-do-banco-de-dados)
+    - [✔️ Por Que PostgreSQL?](#️-por-que-postgresql)
+      - [📌 Instalação do PostgreSQL](#-instalação-do-postgresql)
+  - [🔍 Funções de Consulta](#-funções-de-consulta)
+  - [🧭 Roadmap](#-roadmap)
+  - [👥 Contribuição](#-contribuição)
+  - [🚨 Problemas Comuns](#-problemas-comuns)
+    - [Erro "invalid literal for int()"](#erro-invalid-literal-for-int)
 
 ---
 
