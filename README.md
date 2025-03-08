@@ -1,5 +1,8 @@
-# Reddit Data Scraper & Analyzer
+# 📊 Reddit Data Scraper & Analyzer 
 
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-brightgreen)](https://postgresql.org)
+[![License](https://img.shields.io/badge/License-MIT-red)](LICENSE)
 
 
 Este projeto permite a coleta e análise de posts e comentários do Reddit, armazenando os dados de maneira segura em um banco relacional PostgreSQL. Ele é ideal para pesquisadores, analistas de dados e desenvolvedores que desejam extrair informações valiosas de comunidades online. Com consultas pré-definidas, é possível obter insights rapidamente, facilitando a análise de tendências, identificação de padrões e integração com ferramentas de NLP para processamento avançado de linguagem natural.
